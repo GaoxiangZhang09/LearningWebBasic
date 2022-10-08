@@ -1,0 +1,59 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+header,
+nav {
+    /*background-color: pink;*/
+    border-radius: 5px;
+    width: 100%;
+    margin: 15px auto;
+}
+nav a {
+    text-decoration: none;
+    margin-right: 40px;
+}
+section {
+    width: 100%;
+    height: 300px;
+    /*background-color: skyblue;*/
+    margin: 10px auto;
+}
+
+#course-projects li {
+    margin-bottom: 10px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 660px;
+    border: 2px solid red;
+    margin: 10px auto;
+    padding: 5px;
+    background-color: skyblue;
+}
+
+.grid span {
+    width: 30%;
+    height: 100px;
+    margin: 10px 10px 20px 10px;
+    text-align: center;
+    background-color: purple;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: lightblue;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
